@@ -26,6 +26,7 @@ namespace 迭代语句while
             }
 
             //for循环
+            Console.WriteLine("输出50个数字");
             for (int i = 0; i <= 50; i++)
             {
                 Console.WriteLine(i);
