@@ -10,6 +10,7 @@ namespace 迭代do._.@while
     {
         static void Main(string[] args)
         {
+
             double Balance = 0;
             double Rate = 0;
             int Year = 0;
@@ -17,7 +18,7 @@ namespace 迭代do._.@while
             Console.WriteLine("输入您的本金");
             Balance = double.Parse(Console.ReadLine());
             Console.WriteLine("输入当前利率百分比");
-            Rate = double.Parse(Console.ReadLine())/100;
+            Rate = double.Parse(Console.ReadLine()) / 100;
             Console.WriteLine("输入目标收益");
             TartetBalance = double.Parse(Console.ReadLine());
             do
@@ -32,6 +33,6 @@ namespace 迭代do._.@while
                 Console.ReadKey();
             }
 
-        }
     }
+}
 }
