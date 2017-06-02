@@ -11,7 +11,7 @@ namespace 字符串插入填充
         static void Main(string[] args)
         {
 
-            //字符串填充
+            //字符串填充，占位符从0开始
             string lk = "www.lsshape.cn";
             string inlk = lk.Insert(11,"n");
             Console.WriteLine(inlk);
