@@ -25,9 +25,9 @@ namespace 字符串复制
 
             Console.WriteLine("copymystr:" + copymystr);
 
-            Console.WriteLine("copy to:" + mychararray);
+            Console.WriteLine("copy to:" );
 
-            //Console.WriteLine(mychararray);
+            Console.WriteLine(mychararray);
 
             Console.ReadKey();
 
