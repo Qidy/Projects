@@ -32,6 +32,8 @@ namespace 引用和值参数
             就是说你无法把一个数值从out传递进去的，out进去后，参数的数值为空，
             所以你必须初始化一次。这个就是两个的区别，或者说就像有的网友说的，
             ref是有进有出，out是只出不进。
+
+           
         */
 
         static int Showdouble2( int Val)
