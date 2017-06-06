@@ -18,9 +18,11 @@ namespace 异常处理总结
                 3. 处理所有异常         try....catch....finally
                 4. 引发异常             throw new ExceptionName
                 5. 预定义异常类
-                6. 自定义异常类         class myException:Exceptioin,要修改自定义提示信息class myException:Exceptioin:base(message) 
+                6. 自定义异常类         class myException:Exceptioin,要修改自定义提示信息class myException:Exceptioin
+                                        public myException(string message):base(message)
+
              */
-           
+
             Console.WriteLine("请输入一个整数");
             while (true)
                 try
